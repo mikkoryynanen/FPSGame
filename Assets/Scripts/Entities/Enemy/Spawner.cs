@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour 
 {
+    [SerializeField] int enemiesToSpawn = 10;
     [SerializeField] float spawnRate = 1f;
     [SerializeField] GameObject obj;
     Transform[] _spawnpoints;
@@ -30,7 +31,7 @@ public class Spawner : MonoBehaviour
 
         while (true)
         {
-            SpawnWave(2);
+            SpawnWave(enemiesToSpawn);
             while (_enemiesLeft > 0)
             {
                 Debug.Log("Waiting for enemies to die off!");

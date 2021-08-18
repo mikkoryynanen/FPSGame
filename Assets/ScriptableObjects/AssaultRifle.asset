@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7b4c4a88025ac4693ce37489d8a453, type: 3}
   m_Name: AssaultRifle
   m_EditorClassIdentifier: 
+  icon: {fileID: 21300006, guid: ce97ed62c0a56e84ab25e22c8dfd5bca, type: 3}
   damage: 25
   clipSize: 32
   fireRate: 0.2
